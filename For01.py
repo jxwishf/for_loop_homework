@@ -1,9 +1,11 @@
 def main(n):
     """
     Return numbers from zero to n in a list view.
+    
     Args:
         n: int
+        
     Returns:
-        list: return  answer
+        list: return answer
     """
-    return
+    return list(range(n + 1))
