@@ -6,4 +6,4 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    return sum(i for i in range(1, N + 1, 2))
